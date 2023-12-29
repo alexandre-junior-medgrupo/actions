@@ -7,7 +7,7 @@ on:
       - release
 
 jobs:
-  build:
+  build-intergrity:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
