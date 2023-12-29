@@ -48,6 +48,12 @@ npm run start:7
 npm run start:6
 ```
 
+### Committing
+
+```bash
+npm run commit
+```
+
 ## Templarios website
 
 ```bash
