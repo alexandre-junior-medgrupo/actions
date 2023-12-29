@@ -1,0 +1,17 @@
+name: Build integrity
+
+on:
+  pull_request:
+    types: opened
+    branches:
+      - release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check build integrity
+        run: |
+          npm install
+          npm run lint:prettier
