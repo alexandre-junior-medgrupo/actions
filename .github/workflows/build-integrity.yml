@@ -2,7 +2,6 @@ name: Build integrity
 
 on:
   pull_request:
-    types: opened
     branches:
       - release
 
