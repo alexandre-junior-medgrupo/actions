@@ -1,3 +1,1 @@
-Issue number: resolves #
-
----
+# Pull Request Template
