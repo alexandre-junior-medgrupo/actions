@@ -1,0 +1,13 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "material-icon-theme.files.associations": {
+    "settings.json": "vscode",
+    "extensions.json": "vscode",
+    ".prettiercache": "prettier",
+    ".czrc": "commitlint"
+  }
+}

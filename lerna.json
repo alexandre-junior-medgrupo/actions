@@ -1,0 +1,11 @@
+{
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "changelogPreset": "cz-conventional-changelog",
+      "message": "chore(release): publish %v"
+    }
+  },
+  "version": "1.0.0"
+}
